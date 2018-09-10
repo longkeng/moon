@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1972DF3C2143D4C4009F27E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1972DF3B2143D4C4009F27E8 /* AppDelegate.swift */; };
+		1972DF3E2143D4C4009F27E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1972DF3D2143D4C4009F27E8 /* ViewController.swift */; };
+		1972DF412143D4C4009F27E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1972DF3F2143D4C4009F27E8 /* Main.storyboard */; };
+		1972DF432143D4C5009F27E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1972DF422143D4C5009F27E8 /* Assets.xcassets */; };
+		1972DF462143D4C5009F27E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1972DF442143D4C5009F27E8 /* LaunchScreen.storyboard */; };
+		1972DF512143D4C5009F27E8 /* MoonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1972DF502143D4C5009F27E8 /* MoonTests.swift */; };
+		1972DF5C2143D4C5009F27E8 /* MoonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1972DF5B2143D4C5009F27E8 /* MoonUITests.swift */; };
+		1972DF6A2143D8C1009F27E8 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1972DF692143D8C1009F27E8 /* CollectionViewCell.swift */; };
+		1972DF6C2143ECF0009F27E8 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1972DF6B2143ECF0009F27E8 /* Animal.swift */; };
+		1972DF7921440DBF009F27E8 /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1972DF7821440DBF009F27E8 /* Detail.storyboard */; };
+		1972DF7B214414D4009F27E8 /* DetailImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1972DF7A214414D4009F27E8 /* DetailImageViewController.swift */; };
+		1972DF7E2144FA0F009F27E8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1972DF7D2144FA0F009F27E8 /* AVFoundation.framework */; };
+		1972DF812144FB9B009F27E8 /* lion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1972DF802144FB9B009F27E8 /* lion.wav */; };
+		1972DF8921453C07009F27E8 /* pig.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1972DF8221453C07009F27E8 /* pig.wav */; };
+		1972DF8A21453C07009F27E8 /* cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1972DF8321453C07009F27E8 /* cat.wav */; };
+		1972DF8C21453C07009F27E8 /* tiger.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1972DF8521453C07009F27E8 /* tiger.wav */; };
+		1972DF8E21453C07009F27E8 /* dog.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1972DF8721453C07009F27E8 /* dog.wav */; };
+		1972DF9121453CFF009F27E8 /* elephant.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1972DF9021453CFF009F27E8 /* elephant.wav */; };
+		1972DF9321454105009F27E8 /* horse.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1972DF9221454104009F27E8 /* horse.wav */; };
+		1972DF9621454187009F27E8 /* goat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1972DF9421454187009F27E8 /* goat.wav */; };
+		1972DF9721454187009F27E8 /* sheep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1972DF9521454187009F27E8 /* sheep.wav */; };
+		1972DF99214541A7009F27E8 /* duck.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1972DF98214541A7009F27E8 /* duck.wav */; };
+		1972DF9B214541EE009F27E8 /* chicken.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1972DF9A214541EE009F27E8 /* chicken.wav */; };
+		1972DF9D214552FA009F27E8 /* dog_pro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1972DF9C214552FA009F27E8 /* dog_pro.mp3 */; };
+		1972DFA7214558C0009F27E8 /* cat_pro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1972DF9E214558C0009F27E8 /* cat_pro.mp3 */; };
+		1972DFA8214558C0009F27E8 /* duck_pro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1972DF9F214558C0009F27E8 /* duck_pro.mp3 */; };
+		1972DFA9214558C0009F27E8 /* pig_pro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1972DFA0214558C0009F27E8 /* pig_pro.mp3 */; };
+		1972DFAA214558C0009F27E8 /* elephant_pro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1972DFA1214558C0009F27E8 /* elephant_pro.mp3 */; };
+		1972DFAB214558C0009F27E8 /* lion_pro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1972DFA2214558C0009F27E8 /* lion_pro.mp3 */; };
+		1972DFAC214558C0009F27E8 /* tiger_pro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1972DFA3214558C0009F27E8 /* tiger_pro.mp3 */; };
+		1972DFAD214558C0009F27E8 /* horse_pro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1972DFA4214558C0009F27E8 /* horse_pro.mp3 */; };
+		1972DFAE214558C0009F27E8 /* sheep_pro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1972DFA5214558C0009F27E8 /* sheep_pro.mp3 */; };
+		1972DFAF214558C0009F27E8 /* goat_pro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1972DFA6214558C0009F27E8 /* goat_pro.mp3 */; };
+		1972DFB121455913009F27E8 /* chicken_pro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1972DFB021455913009F27E8 /* chicken_pro.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1972DF4D2143D4C5009F27E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1972DF302143D4C4009F27E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1972DF372143D4C4009F27E8;
+			remoteInfo = Moon;
+		};
+		1972DF582143D4C5009F27E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1972DF302143D4C4009F27E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1972DF372143D4C4009F27E8;
+			remoteInfo = Moon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1972DF382143D4C4009F27E8 /* Moon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1972DF3B2143D4C4009F27E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1972DF3D2143D4C4009F27E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1972DF402143D4C4009F27E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1972DF422143D4C5009F27E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1972DF452143D4C5009F27E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1972DF472143D4C5009F27E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1972DF4C2143D4C5009F27E8 /* MoonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1972DF502143D4C5009F27E8 /* MoonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonTests.swift; sourceTree = "<group>"; };
+		1972DF522143D4C5009F27E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1972DF572143D4C5009F27E8 /* MoonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1972DF5B2143D4C5009F27E8 /* MoonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonUITests.swift; sourceTree = "<group>"; };
+		1972DF5D2143D4C5009F27E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1972DF692143D8C1009F27E8 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		1972DF6B2143ECF0009F27E8 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		1972DF7821440DBF009F27E8 /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
+		1972DF7A214414D4009F27E8 /* DetailImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailImageViewController.swift; sourceTree = "<group>"; };
+		1972DF7D2144FA0F009F27E8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1972DF802144FB9B009F27E8 /* lion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lion.wav; sourceTree = "<group>"; };
+		1972DF8221453C07009F27E8 /* pig.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pig.wav; sourceTree = "<group>"; };
+		1972DF8321453C07009F27E8 /* cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cat.wav; sourceTree = "<group>"; };
+		1972DF8521453C07009F27E8 /* tiger.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tiger.wav; sourceTree = "<group>"; };
+		1972DF8721453C07009F27E8 /* dog.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dog.wav; sourceTree = "<group>"; };
+		1972DF9021453CFF009F27E8 /* elephant.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = elephant.wav; sourceTree = "<group>"; };
+		1972DF9221454104009F27E8 /* horse.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = horse.wav; sourceTree = "<group>"; };
+		1972DF9421454187009F27E8 /* goat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = goat.wav; sourceTree = "<group>"; };
+		1972DF9521454187009F27E8 /* sheep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sheep.wav; sourceTree = "<group>"; };
+		1972DF98214541A7009F27E8 /* duck.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = duck.wav; sourceTree = "<group>"; };
+		1972DF9A214541EE009F27E8 /* chicken.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chicken.wav; sourceTree = "<group>"; };
+		1972DF9C214552FA009F27E8 /* dog_pro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dog_pro.mp3; sourceTree = "<group>"; };
+		1972DF9E214558C0009F27E8 /* cat_pro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cat_pro.mp3; sourceTree = "<group>"; };
+		1972DF9F214558C0009F27E8 /* duck_pro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = duck_pro.mp3; sourceTree = "<group>"; };
+		1972DFA0214558C0009F27E8 /* pig_pro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pig_pro.mp3; sourceTree = "<group>"; };
+		1972DFA1214558C0009F27E8 /* elephant_pro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elephant_pro.mp3; sourceTree = "<group>"; };
+		1972DFA2214558C0009F27E8 /* lion_pro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lion_pro.mp3; sourceTree = "<group>"; };
+		1972DFA3214558C0009F27E8 /* tiger_pro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tiger_pro.mp3; sourceTree = "<group>"; };
+		1972DFA4214558C0009F27E8 /* horse_pro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = horse_pro.mp3; sourceTree = "<group>"; };
+		1972DFA5214558C0009F27E8 /* sheep_pro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sheep_pro.mp3; sourceTree = "<group>"; };
+		1972DFA6214558C0009F27E8 /* goat_pro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = goat_pro.mp3; sourceTree = "<group>"; };
+		1972DFB021455913009F27E8 /* chicken_pro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chicken_pro.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1972DF352143D4C4009F27E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1972DF7E2144FA0F009F27E8 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1972DF492143D4C5009F27E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1972DF542143D4C5009F27E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1972DF2F2143D4C4009F27E8 = {
+			isa = PBXGroup;
+			children = (
+				1972DF3A2143D4C4009F27E8 /* Moon */,
+				1972DF4F2143D4C5009F27E8 /* MoonTests */,
+				1972DF5A2143D4C5009F27E8 /* MoonUITests */,
+				1972DF392143D4C4009F27E8 /* Products */,
+				1972DF7C2144FA0F009F27E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1972DF392143D4C4009F27E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1972DF382143D4C4009F27E8 /* Moon.app */,
+				1972DF4C2143D4C5009F27E8 /* MoonTests.xctest */,
+				1972DF572143D4C5009F27E8 /* MoonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1972DF3A2143D4C4009F27E8 /* Moon */ = {
+			isa = PBXGroup;
+			children = (
+				1972DF3B2143D4C4009F27E8 /* AppDelegate.swift */,
+				1972DF3D2143D4C4009F27E8 /* ViewController.swift */,
+				1972DF3F2143D4C4009F27E8 /* Main.storyboard */,
+				1972DF422143D4C5009F27E8 /* Assets.xcassets */,
+				1972DF442143D4C5009F27E8 /* LaunchScreen.storyboard */,
+				1972DF472143D4C5009F27E8 /* Info.plist */,
+				1972DF692143D8C1009F27E8 /* CollectionViewCell.swift */,
+				1972DF6B2143ECF0009F27E8 /* Animal.swift */,
+				1972DF772144070D009F27E8 /* DetailView */,
+				1972DF7F2144FB70009F27E8 /* Sound */,
+			);
+			path = Moon;
+			sourceTree = "<group>";
+		};
+		1972DF4F2143D4C5009F27E8 /* MoonTests */ = {
+			isa = PBXGroup;
+			children = (
+				1972DF502143D4C5009F27E8 /* MoonTests.swift */,
+				1972DF522143D4C5009F27E8 /* Info.plist */,
+			);
+			path = MoonTests;
+			sourceTree = "<group>";
+		};
+		1972DF5A2143D4C5009F27E8 /* MoonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1972DF5B2143D4C5009F27E8 /* MoonUITests.swift */,
+				1972DF5D2143D4C5009F27E8 /* Info.plist */,
+			);
+			path = MoonUITests;
+			sourceTree = "<group>";
+		};
+		1972DF772144070D009F27E8 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				1972DF7821440DBF009F27E8 /* Detail.storyboard */,
+				1972DF7A214414D4009F27E8 /* DetailImageViewController.swift */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		1972DF7C2144FA0F009F27E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1972DF7D2144FA0F009F27E8 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1972DF7F2144FB70009F27E8 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				1972DFB021455913009F27E8 /* chicken_pro.mp3 */,
+				1972DF9E214558C0009F27E8 /* cat_pro.mp3 */,
+				1972DF9F214558C0009F27E8 /* duck_pro.mp3 */,
+				1972DFA1214558C0009F27E8 /* elephant_pro.mp3 */,
+				1972DFA6214558C0009F27E8 /* goat_pro.mp3 */,
+				1972DFA4214558C0009F27E8 /* horse_pro.mp3 */,
+				1972DFA2214558C0009F27E8 /* lion_pro.mp3 */,
+				1972DFA0214558C0009F27E8 /* pig_pro.mp3 */,
+				1972DFA5214558C0009F27E8 /* sheep_pro.mp3 */,
+				1972DFA3214558C0009F27E8 /* tiger_pro.mp3 */,
+				1972DF9C214552FA009F27E8 /* dog_pro.mp3 */,
+				1972DF9A214541EE009F27E8 /* chicken.wav */,
+				1972DF98214541A7009F27E8 /* duck.wav */,
+				1972DF9421454187009F27E8 /* goat.wav */,
+				1972DF9521454187009F27E8 /* sheep.wav */,
+				1972DF9221454104009F27E8 /* horse.wav */,
+				1972DF9021453CFF009F27E8 /* elephant.wav */,
+				1972DF8321453C07009F27E8 /* cat.wav */,
+				1972DF8721453C07009F27E8 /* dog.wav */,
+				1972DF8221453C07009F27E8 /* pig.wav */,
+				1972DF8521453C07009F27E8 /* tiger.wav */,
+				1972DF802144FB9B009F27E8 /* lion.wav */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1972DF372143D4C4009F27E8 /* Moon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1972DF602143D4C5009F27E8 /* Build configuration list for PBXNativeTarget "Moon" */;
+			buildPhases = (
+				1972DF342143D4C4009F27E8 /* Sources */,
+				1972DF352143D4C4009F27E8 /* Frameworks */,
+				1972DF362143D4C4009F27E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Moon;
+			productName = Moon;
+			productReference = 1972DF382143D4C4009F27E8 /* Moon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1972DF4B2143D4C5009F27E8 /* MoonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1972DF632143D4C5009F27E8 /* Build configuration list for PBXNativeTarget "MoonTests" */;
+			buildPhases = (
+				1972DF482143D4C5009F27E8 /* Sources */,
+				1972DF492143D4C5009F27E8 /* Frameworks */,
+				1972DF4A2143D4C5009F27E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1972DF4E2143D4C5009F27E8 /* PBXTargetDependency */,
+			);
+			name = MoonTests;
+			productName = MoonTests;
+			productReference = 1972DF4C2143D4C5009F27E8 /* MoonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1972DF562143D4C5009F27E8 /* MoonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1972DF662143D4C5009F27E8 /* Build configuration list for PBXNativeTarget "MoonUITests" */;
+			buildPhases = (
+				1972DF532143D4C5009F27E8 /* Sources */,
+				1972DF542143D4C5009F27E8 /* Frameworks */,
+				1972DF552143D4C5009F27E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1972DF592143D4C5009F27E8 /* PBXTargetDependency */,
+			);
+			name = MoonUITests;
+			productName = MoonUITests;
+			productReference = 1972DF572143D4C5009F27E8 /* MoonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1972DF302143D4C4009F27E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Geniee;
+				TargetAttributes = {
+					1972DF372143D4C4009F27E8 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					1972DF4B2143D4C5009F27E8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1972DF372143D4C4009F27E8;
+					};
+					1972DF562143D4C5009F27E8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1972DF372143D4C4009F27E8;
+					};
+				};
+			};
+			buildConfigurationList = 1972DF332143D4C4009F27E8 /* Build configuration list for PBXProject "Moon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1972DF2F2143D4C4009F27E8;
+			productRefGroup = 1972DF392143D4C4009F27E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1972DF372143D4C4009F27E8 /* Moon */,
+				1972DF4B2143D4C5009F27E8 /* MoonTests */,
+				1972DF562143D4C5009F27E8 /* MoonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1972DF362143D4C4009F27E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1972DFB121455913009F27E8 /* chicken_pro.mp3 in Resources */,
+				1972DFAE214558C0009F27E8 /* sheep_pro.mp3 in Resources */,
+				1972DF812144FB9B009F27E8 /* lion.wav in Resources */,
+				1972DFA8214558C0009F27E8 /* duck_pro.mp3 in Resources */,
+				1972DF9121453CFF009F27E8 /* elephant.wav in Resources */,
+				1972DF462143D4C5009F27E8 /* LaunchScreen.storyboard in Resources */,
+				1972DF9D214552FA009F27E8 /* dog_pro.mp3 in Resources */,
+				1972DF99214541A7009F27E8 /* duck.wav in Resources */,
+				1972DF8A21453C07009F27E8 /* cat.wav in Resources */,
+				1972DF8E21453C07009F27E8 /* dog.wav in Resources */,
+				1972DFAB214558C0009F27E8 /* lion_pro.mp3 in Resources */,
+				1972DF432143D4C5009F27E8 /* Assets.xcassets in Resources */,
+				1972DFAC214558C0009F27E8 /* tiger_pro.mp3 in Resources */,
+				1972DFA7214558C0009F27E8 /* cat_pro.mp3 in Resources */,
+				1972DF9B214541EE009F27E8 /* chicken.wav in Resources */,
+				1972DF8921453C07009F27E8 /* pig.wav in Resources */,
+				1972DF412143D4C4009F27E8 /* Main.storyboard in Resources */,
+				1972DFAF214558C0009F27E8 /* goat_pro.mp3 in Resources */,
+				1972DF7921440DBF009F27E8 /* Detail.storyboard in Resources */,
+				1972DF9721454187009F27E8 /* sheep.wav in Resources */,
+				1972DFAA214558C0009F27E8 /* elephant_pro.mp3 in Resources */,
+				1972DF9621454187009F27E8 /* goat.wav in Resources */,
+				1972DF9321454105009F27E8 /* horse.wav in Resources */,
+				1972DFAD214558C0009F27E8 /* horse_pro.mp3 in Resources */,
+				1972DF8C21453C07009F27E8 /* tiger.wav in Resources */,
+				1972DFA9214558C0009F27E8 /* pig_pro.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1972DF4A2143D4C5009F27E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1972DF552143D4C5009F27E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1972DF342143D4C4009F27E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1972DF3E2143D4C4009F27E8 /* ViewController.swift in Sources */,
+				1972DF6C2143ECF0009F27E8 /* Animal.swift in Sources */,
+				1972DF3C2143D4C4009F27E8 /* AppDelegate.swift in Sources */,
+				1972DF6A2143D8C1009F27E8 /* CollectionViewCell.swift in Sources */,
+				1972DF7B214414D4009F27E8 /* DetailImageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1972DF482143D4C5009F27E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1972DF512143D4C5009F27E8 /* MoonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1972DF532143D4C5009F27E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1972DF5C2143D4C5009F27E8 /* MoonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1972DF4E2143D4C5009F27E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1972DF372143D4C4009F27E8 /* Moon */;
+			targetProxy = 1972DF4D2143D4C5009F27E8 /* PBXContainerItemProxy */;
+		};
+		1972DF592143D4C5009F27E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1972DF372143D4C4009F27E8 /* Moon */;
+			targetProxy = 1972DF582143D4C5009F27E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1972DF3F2143D4C4009F27E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1972DF402143D4C4009F27E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1972DF442143D4C5009F27E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1972DF452143D4C5009F27E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1972DF5E2143D4C5009F27E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1972DF5F2143D4C5009F27E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1972DF612143D4C5009F27E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALTERNATE_GROUP = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKMVWZ32F4;
+				INFOPLIST_FILE = Moon/Info.plist;
+				INSTALL_GROUP = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.geniee.longapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1972DF622143D4C5009F27E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALTERNATE_GROUP = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKMVWZ32F4;
+				INFOPLIST_FILE = Moon/Info.plist;
+				INSTALL_GROUP = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.geniee.longapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1972DF642143D4C5009F27E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKMVWZ32F4;
+				INFOPLIST_FILE = MoonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.geniee.MoonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moon.app/Moon";
+			};
+			name = Debug;
+		};
+		1972DF652143D4C5009F27E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKMVWZ32F4;
+				INFOPLIST_FILE = MoonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.geniee.MoonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moon.app/Moon";
+			};
+			name = Release;
+		};
+		1972DF672143D4C5009F27E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKMVWZ32F4;
+				INFOPLIST_FILE = MoonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.geniee.MoonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Moon;
+			};
+			name = Debug;
+		};
+		1972DF682143D4C5009F27E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKMVWZ32F4;
+				INFOPLIST_FILE = MoonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.geniee.MoonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Moon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1972DF332143D4C4009F27E8 /* Build configuration list for PBXProject "Moon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1972DF5E2143D4C5009F27E8 /* Debug */,
+				1972DF5F2143D4C5009F27E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1972DF602143D4C5009F27E8 /* Build configuration list for PBXNativeTarget "Moon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1972DF612143D4C5009F27E8 /* Debug */,
+				1972DF622143D4C5009F27E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1972DF632143D4C5009F27E8 /* Build configuration list for PBXNativeTarget "MoonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1972DF642143D4C5009F27E8 /* Debug */,
+				1972DF652143D4C5009F27E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1972DF662143D4C5009F27E8 /* Build configuration list for PBXNativeTarget "MoonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1972DF672143D4C5009F27E8 /* Debug */,
+				1972DF682143D4C5009F27E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1972DF302143D4C4009F27E8 /* Project object */;
+}
